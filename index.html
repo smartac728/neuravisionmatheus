@@ -1,0 +1,515 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neura Vision ia</title>
+    <link rel="preload" href="https://scripts.converteai.net/2c144052-2db8-4a63-93c7-a0451a848b8e/players/67ca9902b0afe3c8ad35171b/player.js" as="script">
+    <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
+    <link rel="preload" href="https://images.converteai.net/2c144052-2db8-4a63-93c7-a0451a848b8e/players/67ca9902b0afe3c8ad35171b/thumbnail.jpg" as="image">
+    <link rel="preload" href="https://cdn.converteai.net/2c144052-2db8-4a63-93c7-a0451a848b8e/67ca929637ea632e14e1d9e2/main.m3u8" as="fetch">
+    <link rel="dns-prefetch" href="https://cdn.converteai.net">
+    <link rel="dns-prefetch" href="https://scripts.converteai.net">
+    <link rel="dns-prefetch" href="https://images.converteai.net">
+    <link rel="dns-prefetch" href="https://api.vturb.com.br">
+    <script src="js/latest.js" data-utmify-prevent-subids="" async="" defer=""></script>
+  
+<script>
+  window.pixelId = "68a14e6d71cde16775ac1871";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+  
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1683512449276023');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1683512449276023&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+  
+    <style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 16px; /* tamanho base */
+}
+
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.highlight-text {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2rem; /* Ajustado menor */
+    line-height: 1.2;
+}
+
+.highlight-text span {
+    color: #00ffcc;
+}
+
+.main-banner {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.garantia {
+    padding: 20px 15px;
+    background-color: #111;
+    text-align: center;
+}
+
+.garantia h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.8rem; /* Ajustado menor */
+    margin-bottom: 10px;
+}
+
+.garantia p {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem; /* Ajustado para celular */
+    margin-bottom: 15px;
+}
+
+.contrato-img {
+    width: 100%;
+    max-width: 768px;
+    height: auto;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.sobre {
+    padding: 20px 15px;
+    text-align: center;
+    background-color: #000;
+}
+
+.sobre h2 {
+    font-size: 1.8rem; /* Ajustado */
+    margin-bottom: 10px;
+}
+
+.sobre .destaque {
+    color: white;
+    font-weight: bold;
+}
+
+.alfredo-img {
+    width: 80%;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.sobre p {
+    font-size: 1rem; /* Ajustado para celular */
+    margin: 15px 0;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #111;
+    color: #939393;
+    font-size: 0.5em;
+}
+
+.faq {
+    background: #000;
+    color: #fff;
+    padding: 40px;
+}
+
+.faq h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.faq-item {
+    margin-bottom: 25px;
+}
+
+.faq-item h3 {
+    color: #00ffcc;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.faq-item p {
+    color: #fff;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.faq-answer {
+    transition: all 0.3s;
+}
+
+.faq-question {
+    cursor: pointer;
+    position: relative;
+}
+
+.faq-question::after {
+    content: '▼';
+    font-size: 0.8em;
+    margin-left: 10px;
+    transition: transform 0.3s;
+}
+
+.faq-question.open::after {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 480px) {
+    .highlight-text {
+        font-size: 1.2rem;
+    }
+    
+    .garantia h2,
+    .sobre h2 {
+        font-size: 1.5rem;
+    }
+
+    .garantia p,
+    .sobre p {
+        font-size: 0.9rem;
+    }
+
+    .faq h2 {
+        font-size: 1.3rem;
+    }
+    .faq-item h3 {
+        font-size: 1rem;
+    }
+    .faq-item p {
+        font-size: 0.9rem;
+    }
+}
+
+.garantia-destaque {
+    background: #111111;
+    padding: 40px 0;
+}
+
+.garantia-destaque-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.garantia-destaque-img {
+    width: 220px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.garantia-destaque-texto {
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.garantia-destaque-texto strong {
+    color: #00ffcc;
+}
+
+
+.btn-neura {
+    display: block;
+    padding: 18px 60px;
+    background: #0cd42a;        
+    color: #fff;
+    font-size: 1.25rem;         
+    font-weight: 700;            
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(12, 212, 42, .6);   
+    transition: transform .15s ease, box-shadow .15s ease;
+    margin: 0 auto;
+    text-align: center;
+    max-width: fit-content;
+}
+
+@media (max-width: 700px) {
+    .garantia-destaque-container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .garantia-destaque-img {
+        width: 80vw;
+        max-width: 300px;
+        height: auto;
+    }
+    .garantia-destaque-texto {
+        font-size: 1rem;
+    }
+}
+
+  .video-wrapper {
+    max-width: 720px;            
+    margin: 0 auto;              
+  }
+
+  @media (max-width: 768px) {
+    .video-wrapper {
+      max-width: 100%;
+    }
+  }
+
+.desktop-only {
+  display: none;
+}
+@media (min-width: 768px) {
+  .desktop-only {
+    display: inline;
+  }
+}
+</style>
+</head>
+
+<body>
+
+
+<header class="header">
+<p class="highlight-text">
+  <span>Ou você lucra R$ 3.000 por dia</span> 
+  <span class="line-break"><br></span>
+  durante 200 dias seguidos ou receba
+  <br class="desktop-only">
+   <span>R$ 30.000 do meu bolso na hora que quiser!</span>
+</p>
+
+
+ <div class="video-wrapper" style="margin-bottom:20px;">
+    <div id="vid_683a42a9da1c49bebadf451a" style="position:relative;width:100%;padding:56.25% 0 0;">
+      <img id="thumb_683a42a9da1c49bebadf451a" src="images/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;" alt="thumbnail">
+      <div id="backdrop_683a42a9da1c49bebadf451a" style="-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);
+                  position:absolute;top:0;height:100%;width:100%;"></div>
+    </div>
+  </div>
+
+  <script id="scr_683a42a9da1c49bebadf451a">
+    var s=document.createElement("script");
+    s.src="https://scripts.converteai.net/2c144052-2db8-4a63-93c7-a0451a848b8e/players/683a42a9da1c49bebadf451a/player.js";
+    s.async=true;document.head.appendChild(s);
+  </script>
+
+</header>
+
+
+
+   
+
+    <section class="garantia">
+        <div style="max-width: 800px;margin: 20px auto">
+            <h2>Documento Oficial da sua garantia</h2>
+            <p>Nós assinamos em cartório que se você perder um único centavo dentro dos 200 primeiros dias, você
+                receberá o DOBRO do seu dinheiro de volta como garantia - o DOBRO de cada centavo que gastar. Com
+                documento assinado em cartório, se eu não lhe pagar, eu serei judicialmente responsabilizado.</p>
+            <img width="768" height="1086" src="images/contrato_otimizado.webp" alt="Contrato de Confirmação de Pagamento" class="contrato-img">
+                <a href="https://payment.ticto.app/OACDAA02E?utm_content=botaovturb" class="btn-neura esconder">DESCONTO ESPECIAL - 47 REAIS!</a>
+        </div>
+    </section>
+
+
+    <section class="sobre">
+        <div style="max-width: 800px;margin: 20px auto">
+            <h2>Quem é <span class="destaque">Alfredo Braga</span></h2>
+            <img src="images/alfredo_otimizado.webp" alt="Alfredo Braga" class="alfredo-img" width="100%">
+            <p>Trabalha há mais de 15 anos no Mercado Financeiro, e há mais de 7 anos como braço direito do maior
+                investidor do mundo, o Warren Buffett. Foi o fundador da Neura Vision com o objetivo de fazer cada
+                usuário usar o software, ganhar pelo menos R$2.000,00 por dia a mais.</p>
+            <p>Além disso, acompanha cada usuário pegando pela mão junto com sua equipe, para tirar da menor até a maior
+                das dúvidas (dificilmente vá existir uma grande, porém se haver estamos aqui para isso)...</p>
+            <p>Porque se algum usuário perder um único real ao utilizar o Neura Vision, o Alfredo pagará do bolso os
+                R$2.000,00 para ele. Por isso, está ali com sua equipe ajudando cada um pela mão, para garantir que
+                nenhum usuário perca dinheiro!</p>
+                <a href="https://payment.ticto.app/OACDAA02E?utm_content=botaovturb" class="btn-neura esconder">DESCONTO ESPECIAL - 47 REAIS!</a>
+        </div>
+    </section>
+
+    <section class="garantia-destaque esconder">
+        <div class="garantia-destaque-container">
+            <img src="images/garantia.webp" alt="Garantia em cartório" class="garantia-destaque-img">
+            <div class="garantia-destaque-texto">
+                <p>
+                    Voc receber o <strong>DOBRO do seu dinheiro de volta</strong> se perder qualquer centavo usando o
+                    Neura dentro dos 200 primeiros dias. Com documento assinado em cartório, se eu não lhe pagar, eu
+                    serei judicialmente responsabilizado.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="faq esconder">
+        <div style="max-width: 800px; margin: 20px auto">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-item">
+                <h3 class="faq-question">Como o Neura Vision funciona?</h3>
+                <p class="faq-answer">O Neura Vision é um software Homologado pela NeuraLink, empresa do Elon Musk. Ele
+                    paga de R$2.000 a R$3.000 por dia para qualquer pessoa, de forma automática, utilizando a tecnologia
+                    mais avançada e revolucionária existente dentro do mercado financeiro. Basta ativar o aplicativo em
+                    seu celular ou computador que ele faz o resto por você!</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">Quanto custa para acessar a Neura Vision e o que está incluído?</h3>
+                <p class="faq-answer">Você terá o meu suporte pessoal, suporte dedicado 24 horas por dia, orientaçes
+                    diárias de especialistas de alto nível, como donos de bancos e educadores financeiros. Isso
+                    significa que você terá tudo o que precisa para alcançar o sucesso financeiro, sem desculpas e sem
+                    barreiras por apenas 27 centavos por dia.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">Quanto tempo preciso dedicar ao Neura Vision diariamente?</h3>
+                <p class="faq-answer">Com o Neura Vision, você pode transformar QUALQUER minuto livre do seu dia em
+                    dinheiro! O software oficial no precisa que você demande horas do seu dia. Com o aplicativo
+                    conectado  internet, basta dar dois cliques que ele vai gerar de R$2.000 a R$3.000 por dia, mesmo
+                    enquanto você dorme, trabalha ou está preso no trnsito.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">O Neura Vision oferece garantias se eu não tiver resultados?</h3>
+                <p class="faq-answer">Nosso compromisso vai alm das palavras! Se voc perder um nico real, estamos
+                    prontos para garantir a sua segurança. Com o Neura Vision, você tem um software comprovado e
+                    testado. Além disso, temos uma poltica de reembolso protegida por contrato. Seu risco é ZERO, e o
+                    seu retorno é certo. Ou você ganha, ou recebe seu dinheiro de volta!</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">Preciso de algum conhecimento prévio para usar o Neura Vision?</h3>
+                <p class="faq-answer">No, pois o Neura Vision foi desenvolvido para ser acessível a qualquer pessoa,
+                    independente qual seja seu nível de conhecimento ou experiência. Eu pessoalmente, Alfredo Braga vou
+                    pegar na sua mo e te orientar passo a passo, clique a clique para garantir que você vai ganhar de
+                    R$2.000 a R$3.000 todos os dias pelo resto da sua vida.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div style="max-width: 800px;margin: 20px auto">
+            <p>Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Depois que você sair do
+                Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar
+                claramente e mostrar todas as provas do produto e usamos resultados reais. Todas e quaisquer declarações
+                prospectivas contidas neste site ou em qualquer um de nossos produtos têm a intenção de expressar nossa
+                opinião sobre o potencial de ganhos que algumas pessoas podem alcanar. Mas muitos fatores serão
+                importantes para determinar seus resultados reais, e não garantimos que você obterá resultados
+                semelhantes aos nossos ou aos de qualquer outra pessoa. </p>
+            <br>
+            <p>Termos de Uso | Política de Privacidade</p>
+        </div>
+    </footer>
+    <script>
+    document.querySelectorAll('.faq-question').forEach(function (question) {
+        question.addEventListener('click', function () {
+            const answer = this.nextElementSibling;
+            if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+                this.classList.remove('open');
+            } else {
+                answer.style.display = 'block';
+                this.classList.add('open');
+            }
+        });
+        question.style.cursor = 'pointer';
+    });
+    document.querySelectorAll('.faq-answer').forEach(function (answer) {
+        answer.style.display = 'none';
+    });
+</script>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.esconder').hide(); // Esconde as seções no início
+
+    // Monitorar o aparecimento do botão da VTurb
+    var checkBotao = setInterval(function() {
+        var botaoVTurb = $(".smartplayer-call-action"); // Procura qualquer botão dentro da classe correta
+        
+        if (botaoVTurb.length > 0 && botaoVTurb.is(":visible")) {
+            clearInterval(checkBotao); // Para de checar quando o botão aparecer
+            $('.esconder').show(); // Mostra as seções ocultas
+        }
+    }, 500); // Checa a cada 500 milissegundos se o botão apareceu
+});
+</script>
+
+<script>
+  // ALTERE O LINK PARA A PÁGINA QUE QUISER MOSTRAR QUANDO O USURIO TENTAR SAIR
+  const link = 'https://www.neuraviosion.com/neura-back-1/';
+
+  function setBackRedirect(url) {
+    let urlBackRedirect = url;
+    urlBackRedirect = urlBackRedirect =
+      urlBackRedirect.trim() +
+      (urlBackRedirect.indexOf('?') > 0 ? '&' : '?') +
+      document.location.search.replace('?', '').toString();
+
+    history.pushState({}, '', location.href);
+    history.pushState({}, '', location.href);
+    history.pushState({}, '', location.href);
+
+    window.addEventListener('popstate', () => {
+      console.log('onpopstate', urlBackRedirect);
+      setTimeout(() => {
+        location.href = urlBackRedirect;
+      }, 1);
+    });
+  }
+
+  setBackRedirect(link);
+</script>
+
+
+
+
+
+
+
+
+</body></html>
